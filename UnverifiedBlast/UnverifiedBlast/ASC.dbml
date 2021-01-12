@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="hldemailmgmt" Class="ASCDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=fas9dyf938y.database.windows.net;Initial Catalog=hldemailmgmt;User ID=HLDfas9dyf938y" SettingsObjectName="UnverifiedBlast.Properties.Settings" SettingsPropertyName="hldemailmgmtConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.WarmingEmailList" Member="WarmingEmailLists">
+    <Type Name="WarmingEmailList">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Profession" Type="System.String" DbType="VarChar(16)" CanBeNull="true" />
+      <Column Name="Specialty" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DoNotEmail" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CandidateOptOut" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="BadEmail" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="SignedUp" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="LastEmailed" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TimesEmailed" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LastClicked" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LastOpened" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="GUID" Type="System.String" DbType="Char(32)" CanBeNull="true" />
+      <Column Name="LastEmailedHost" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TypeOfHost" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Quarantined" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="DoubleQuarantine" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="LastUsageDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="sellable" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="HealthLink" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="emailSource" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="emailSourceSubType" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+      <Column Name="HLDProvID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="HLDEmailID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="WebbulaFlag" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StateAbbrev" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="IsDuplicate" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AbuseFlag" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AbuseLogged" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Active" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DeactivateddOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeactivateddBy" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Notes" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="IsGoodEmail" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="HLDEmailRating" Type="System.Decimal" DbType="Decimal(18,9)" CanBeNull="true" />
+      <Column Name="HLDPermissionDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="HLDVerificationDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="HLDEmailSent" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.List_ID_1908_for_Ardent" Member="List_ID_1908_for_Ardents">
+    <Type Name="List_ID_1908_for_Ardent">
+      <Column Name="HLD_ProvID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NPI" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="EMAIL" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="ContractType" Type="System.String" DbType="NVarChar(1) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

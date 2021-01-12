@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 9.125" name="ASC">
+  <DataContextMoniker Name="/ASCDataContext" />
+  <nestedChildShapes>
+    <classShape Id="8272737f-32eb-4e52-bde1-20e2ca67e62e" absoluteBounds="0.75, 0.75, 2, 8.16308837890625">
+      <DataClassMoniker Name="/ASCDataContext/WarmingEmailList" />
+      <nestedChildShapes>
+        <elementListCompartment Id="50627f25-df61-4fc2-b67d-f4dfe0640b2c" absoluteBounds="0.76499999999999968, 1.21, 1.9700000000000002, 7.6030883789062509" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="45d737c8-c968-4049-b474-3cbb9e7cfb6b" isExpanded="false" absoluteBounds="4.5, 1.875, 2, 0.45">
+      <DataClassMoniker Name="/ASCDataContext/List_ID_1908_for_Ardent" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a9007624-f518-463d-bf9b-f8b6e6dd3ad5" absoluteBounds="4.5150000000000006, 2.335, 1.9700000000000002, 0.86484781901041674" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

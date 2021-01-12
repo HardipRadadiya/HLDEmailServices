@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="UnverifiedBlast.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AlertServicesCorporationConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=ptvb04pzl4.database.windows.net,1433;Initial Catalog=AlertServicesCorporation;Persist Security Info=True;User ID=AlertServicesCorp;Password=Asc030109&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=ptvb04pzl4.database.windows.net,1433;Initial Catalog=AlertServicesCorporation;Persist Security Info=True;User ID=AlertServicesCorp;Password=Asc030109</Value>
+    </Setting>
+    <Setting Name="AlertServicesCorporationConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=ptvb04pzl4.database.windows.net;Initial Catalog=AlertServicesCorporation;Persist Security Info=True;User ID=AlertServicesCorp;Password=Asc030109&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=ptvb04pzl4.database.windows.net;Initial Catalog=AlertServicesCorporation;Persist Security Info=True;User ID=AlertServicesCorp;Password=Asc030109</Value>
+    </Setting>
+    <Setting Name="hldemailmgmtConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=fas9dyf938y.database.windows.net;Initial Catalog=hldemailmgmt;User ID=HLDfas9dyf938y;Password=5Ir0$oQ!j14P&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=fas9dyf938y.database.windows.net;Initial Catalog=hldemailmgmt;User ID=HLDfas9dyf938y;Password=5Ir0$oQ!j14P</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

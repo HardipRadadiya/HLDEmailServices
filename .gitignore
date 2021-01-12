@@ -3,3 +3,9 @@
 ################################################################################
 
 /.vs
+/UnverifiedBlast/.vs/UnverifiedBlast/v16
+/UnverifiedBlast/UnverifiedBlast/bin
+/UnverifiedBlast/UnverifiedBlast/obj/x86
+/WarmingBlast/.vs/WarmingBlast/v16
+/WarmingBlast/WarmingBlast/bin/Debug
+/WarmingBlast/WarmingBlast/obj/x86
